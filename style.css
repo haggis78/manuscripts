@@ -76,6 +76,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  align-items: center; /* whc: adding to try to keep navbar from moving to right when it becomes sticky */
 }
 
 .sticky + .content {
@@ -90,12 +91,12 @@ html, body{
 }
 #header {
     margin: 2%;
-    margin-top: 7%;
+    margin-top: 2%;
     text-align: center
 }
 #content {
     margin: 2%;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 body {
     background-color: #4275f5;
@@ -104,7 +105,7 @@ body {
     font-size: 16px
 }
 #bottom {
-    margin-top: 20%;
+    margin-top: 10%;
 }
 h1 {
     color: black;
