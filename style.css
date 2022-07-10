@@ -1,5 +1,7 @@
 
 /* shd: navbar css */
+@import url(//db.onlinewebfonts.com/c/285a0cd1ece27466bf120f206ec7dad7?family=2000+Textualis+Formata);
+
 .navbar {
     display: flex;
     width: 100%;
@@ -88,6 +90,11 @@ html, body{
     margin: 10px;
     padding: 25px;
 }
+#header {
+    margin: 2%;
+    margin-top: 7%;
+    @font-face {font-family: "2000 Textualis Formata"; src: url("//db.onlinewebfonts.com/t/285a0cd1ece27466bf120f206ec7dad7.eot"); src: url("//db.onlinewebfonts.com/t/285a0cd1ece27466bf120f206ec7dad7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/285a0cd1ece27466bf120f206ec7dad7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/285a0cd1ece27466bf120f206ec7dad7.woff") format("woff"), url("//db.onlinewebfonts.com/t/285a0cd1ece27466bf120f206ec7dad7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/285a0cd1ece27466bf120f206ec7dad7.svg#2000 Textualis Formata") format("svg"); }
+}
 #content {
     margin: 2%;
     margin-top: 7%;
@@ -102,7 +109,7 @@ body {
     margin-top: 20%;
 }
 h1 {
-    color: #0C0C0C;
+    color: black;
     text-align:center
 }
 h2 {
