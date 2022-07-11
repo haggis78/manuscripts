@@ -61,7 +61,7 @@
 }
 .dropdown:hover .dropdown-content {
     display: block;
-    color: white;
+    color: red;
 }
 /* shd: end navbar css */
 
