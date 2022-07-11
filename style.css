@@ -4,7 +4,7 @@
     display: flex;
     width: 100%;
     overflow: hidden;
-    background-color: #FCBA12;
+    background-color: #f1d28a;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -76,7 +76,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  align-items: center; /* whc: adding to try to keep navbar from moving to right when it becomes sticky */
+  align-items: center; /* whc: adding to try to keep navbar from moving to right when it becomes sticky; didn't work */
 }
 
 .sticky + .content {
@@ -90,8 +90,8 @@ html, body{
     padding: 25px;
 }
 #header {
-    margin: 2%;
-    margin-top: 2%;
+    margin: 0%;
+    margin-top: 0%;
     text-align: center
 }
 #content {
